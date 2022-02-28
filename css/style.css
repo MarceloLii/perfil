@@ -18,6 +18,9 @@ a:hover {
     display:flex;
     flex-wrap:wrap;
 }
+section {
+    padding:0.5rem;
+}
 .main {
     float:left;
     flex:0 0 auto;
@@ -78,7 +81,7 @@ h2.title{
     font-weight: bold;
 }
 @media only screen and (max-width: 860px) {
-    .container {width: 96%;margin:3rem auto;}
-    .main {width:100%;margin:1rem 0;}
-    .sidebar {width:100%;}
+    .container {width: 96%;margin:1rem auto;}
+    .main {width:100%;float:left;flex:0 0 auto;margin:0.3rem 0;padding:0;}
+    .sidebar {width:100%;float:left;flex:0 0 auto;margin:0;padding:0;}
 }
