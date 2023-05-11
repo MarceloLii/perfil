@@ -19,7 +19,7 @@ body {
 
 a:link, a:visited {
   color: #ffffff;
-  text-decoration: 2px wavy #242424;
+  text-decoration: wavy underline #aaaaaa;
 }
 
 a:hover {
