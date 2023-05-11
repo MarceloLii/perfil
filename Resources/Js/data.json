@@ -1,0 +1,22 @@
+{
+    "nome": "Marcelo Lima",
+    "email": "contato.marcelo1992@yahoo.com",
+    "telefone": "(61) 9 9177-5771",
+    "projetos": [
+      {
+        "nome": "Login e cadastro",
+        "linguagem": "Html, css, javascript e PHP",
+        "url": "https://github.com/MarceloLii/cadastro-login-php-javascript-mysql",
+        "descricao": "Primeiro projeto desenvolvido em php."
+      }
+    ],
+    "linguagens": [
+      {
+        "javascript": 10,
+        "php": 30,
+        "python": 5,
+        "nodeJs": 3
+      }
+    ]
+  }
+  

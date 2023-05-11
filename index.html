@@ -1,34 +1,43 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil - Marcelo Lima</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/font.css">
+    <title>Curriculum: Marcelo Lima</title>
+    <link rel="stylesheet" href="Resources/style.css">
 </head>
+
 <body>
     <div class="container">
+        <header>
+          <h1 class="text-white">Marcelo Lima</h1>
+        </header>
+        <main>
+          <section class="section bg-primary text-white">
+            <h2 class="title">
+              <div class="image-circular"><img src="Resources/Img/perfil.png"></div>Dados Pessoais
+            </h2>
+            <ul class="list">
+              <li><strong>Nome:</strong> <span id="nome"></span></li>
+              <li><strong>Email:</strong> <span id="email"></span></li>
+              <li><strong>Telefone:</strong> <span id="telefone"></span></li>
+            </ul>
+          </section>
+          <section class="section bg-orange text-white">
+            <h2 class="title"><img src="Resources/Img/projetos.png" width="6%" class="image">Meus projetos</h2>
+            <ul class="list" id="projetos">
+            </ul>
+          </section>
+          <section class="section bg-secondary text-white">
+            <h2 class="title"><img src="Resources/Img/update.png" width="6%" class="image image_update">Update</h2>
+            <ul class="list" id="linguagens">
+            </ul>
+          </section>
+        </main>
+      </div>
 
-        <div class="sidebar">
-            <section>
-                <img src="css/perfil.jpg" class="avatar"/>
-                <h2 class="title">Marcelo Lima</h2>
-                <p>Profissão Porteiro, moro em brasília e sou apaixonado por tecnologia e linguagens de programação.</p>
-            </section>
-        </div>
-
-        <div class="main">
-            <section>
-                <h2>Meus Projetos publicados</h2>
-                    <ul>
-                        <li><a href='https://github.com/MarceloLii/cadastro-login-php-javascript-mysql' target='_black'>Cadastro e login feito em php c/ mysql</a></li>
-                    
-                    </ul>
-            </section>
-        </div>
-
-    </div>
+    <script src="Resources/Js/script.js"></script>
 </body>
 </html>
