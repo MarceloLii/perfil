@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
 /* Estilos globais */
 * {
   margin: 0;
@@ -9,7 +10,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 16px;
   background-color: #120150;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 
 .font-small {
