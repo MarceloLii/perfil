@@ -8,7 +8,7 @@ fetch('Resources/Js/data.json')
   .then(response => response.json())
   .then(data => {
     nome.innerText = data.nome;
-    email.innerHTML = `<a alt="Email" title="Meu email" href="malito:${data.email}">${data.email}</a>`;
+    email.innerHTML = `<a alt="Email" title="Meu email" href="mailto:${data.email}">${data.email}</a>`;
     telefone.innerText = data.telefone;
 
     data.linguagens.forEach(dev => {
