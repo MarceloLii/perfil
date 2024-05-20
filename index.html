@@ -1,43 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum: Marcelo Lima</title>
-    <link rel="stylesheet" href="Resources/style.css">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
+
     <div class="container">
         <header>
-          <h1 class="text-white">Marcelo Lima</h1>
+            <h1>👋 <span>Olá, me chamo Marcelo</span></h1>
         </header>
-        <main>
-          <section class="section bg-primary text-white">
-            <h2 class="title">
-              <div class="image-circular"><img src="Resources/Img/perfil.png"></div>Dados Pessoais
-            </h2>
-            <ul class="list">
-              <li><strong>Nome:</strong> <span id="nome"></span></li>
-              <li><strong>Email:</strong> <span id="email"></span></li>
-              <li><strong>Telefone:</strong> <span id="telefone"></span></li>
+        <nav>
+            <ul>
+                <li><a data-tab-target="#projects" href="#">Projetos</a></li>
+                <li><a data-tab-target="#about" href="#">Sobre Mim</a></li>
+                <li><a data-tab-target="#timeline" href="#">Timeline</a></li>
             </ul>
-          </section>
-          <section class="section bg-orange text-white">
-            <h2 class="title"><img src="Resources/Img/projetos.png" width="6%" class="image">Meus projetos</h2>
-            <ul class="list" id="projetos">
-            </ul>
-          </section>
-          <section class="section bg-secondary text-white">
-            <h2 class="title"><img src="Resources/Img/update.png" width="6%" class="image image_update">Update</h2>
-            <ul class="list" id="linguagens">
-            </ul>
-          </section>
-        </main>
-      </div>
+        </nav>
 
-    <script src="Resources/Js/script.js"></script>
+        <section id="projects" class="tab-content active">
+            <div class="container portfolio">
+                <h2>⚡Meus Projetos</h2>
+                <div class="project">
+                    <h3>Blog Condomínio 305 A/B</h3>
+                    <button class="accordion-button">Abrir</button>
+                    <div class="accordion-content">
+                        <p>Blog para notícias do Condomínio 305 A/B, estou aprendendo a desenvolver técnicas para criar
+                            um site responsivo e ágil. <a href='https://305ab.blogspot.com/' target="_blank">[Abrir]</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="tab-content">
+            <div class="container">
+                <h2>Sobre Mim 😄</h2>
+                <p>Me chamo Marcelo, sou estudante de Análise e Desenvolvimento de Sistemas, trabalho como porteiro de
+                    edifício, tenho 31 anos, resido em Brasília-DF, sou casado e pai de dois filhos <3.</p>
+            </div>
+        </section>
+
+        <section id="timeline" class="tab-content">
+            <div class="container">
+                <h2>Timeline</h2>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-content">
+                            <h3>Início da faculdade de ADS</h3>
+                            <p>Início do curso de Tecnólogo em Análise e Desenvolvimento de Sistemas.</p>
+                            <span class="timeline-date">2024/1</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Meu Portfólio</p>
+        </footer>
+    </div>
+
+    <script src="scripts/main.js"></script>
 </body>
+
 </html>
